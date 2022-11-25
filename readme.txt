@@ -2,6 +2,8 @@ Planning and designing: Around 2 hour
 Coding, debugging and testing: Around 3 hour
 
 Summary of Solution:
+-This calucation is able to handle calculation using +, -, *, /, % and ^ operands. Brackets are allowed within the equation.
+-Sample equation: 1 + ( 2 * ( 3 - 2 ) )
 -All element in the equation has a space between them which allows to split all elements into an array easily using String.Split(' ') method.
 -The input equation is then splited into multiple smaller equation if brackets exist within the equation.
 -Each smaller equation is formed by the content within the brackets respectively.
